@@ -1,6 +1,7 @@
 import numpy as np
 def powerspectrum_from_the_book(alpha):
-
+    if not isinstance(alpha, float):
+        raise Exception("alpha is not float")
     L = 1.0 # the 'physical' box size, sets units of the fundamental mode
     kmin = 2.0*np.pi/L # the fundamental mode of the box
     kmax = kmin * N/2 # the Nyquist mode of each linear dimension
