@@ -3,3 +3,5 @@ For now, these are my solutions for the Cosmic Structures course at the Universi
 ## How to install and run
 Right now, I only used python and my [german interpreter for python](https://github.com/actopozipc/German-Python-Interpreter). Check out the respective github repos if you dont know how to run one of these.
 ## Results
+Exercise 1: 18/20 (forgot to raise indices, e.g calculated G_00 instead of G^00, flat and closed case is not discussed in 2), something is off with the plots of the matter and radiation lines)
+Exercise 2:
